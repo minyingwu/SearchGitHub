@@ -37,6 +37,8 @@ class MainViewController: UIViewController {
     }
     
     func setupUI() {
+        mainSearchBar.returnKeyType = .default
+        setKeyboardGesture()
         bindLoading()?.disposed(by: disposeBag)
         userListCollectionView.rx.setDelegate(self).disposed(by: disposeBag)
         userListCollectionView.rx.willDisplayCell
