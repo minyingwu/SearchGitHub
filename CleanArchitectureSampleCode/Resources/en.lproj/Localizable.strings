@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  CleanArchitectureSampleCode
+
+  Created by Victor on 2021/2/25.
+  
+*/
+
+"Err_Msg_Gen_Response_Failed_Message" = "抱歉，我們的服務發生了一點問題，請稍後再試";
