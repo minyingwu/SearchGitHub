@@ -63,6 +63,8 @@ class MainViewController: UIViewController {
         
         viewModel?.inputText
             .filter { $0 != "" }
+            .throttle(RxTimeInterval.seconds(1),
+                      scheduler: MainScheduler.instance)
             .bind(onNext: { [weak self] _ in
                 guard let self = self else { return }
                 self.startQuery(isFirst: true)
