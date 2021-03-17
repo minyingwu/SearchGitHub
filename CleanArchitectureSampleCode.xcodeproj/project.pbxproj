@@ -131,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7363B826020C2C008620EE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5778146A25EE2482001F3F8F /* ViewModel.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		2EECA6D925FE48ED00EA32A3 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,18 +235,12 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		5778146925EE2446001F3F8F /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				5778146A25EE2482001F3F8F /* ViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		5778147025EE285F001F3F8F /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				5778147125EE286B001F3F8F /* Extension */,
+				2E7363B826020C2C008620EE /* Utility */,
+				57D1A8EC25E37F9700325779 /* Rx */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -370,9 +372,7 @@
 			children = (
 				577813FD25E4AC50001F3F8F /* Extension */,
 				57D1A8A325DD111E00325779 /* Coordinator */,
-				5778146925EE2446001F3F8F /* ViewModel */,
 				57D1A8B925DD1E0700325779 /* Utility */,
-				57D1A8EC25E37F9700325779 /* Rx */,
 			);
 			path = Common;
 			sourceTree = "<group>";
